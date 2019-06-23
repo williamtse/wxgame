@@ -1,0 +1,64 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "game",
+	"libVersion": "2.7.1",
+	"appid": "wx756f20304b73faf7",
+	"projectname": "minigame-test-1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "分享",
+					"query": "",
+					"scene": "1036"
+				},
+				{
+					"id": -1,
+					"name": "群分享",
+					"query": "",
+					"scene": "1008"
+				},
+				{
+					"id": 2,
+					"name": "群分享shareTicket",
+					"query": "mode=4x4&level=1",
+					"scene": "1044",
+					"shareInfo": {
+						"groupName": "测试模拟群0",
+						"shareName": "ARZMZExhdN5CM9bWeN8PNk8Q259zInSvb0-vbEM-dNU@cr4dev",
+						"shareKey": "wbOECwW4rzZYeUS_389DQxvpZy02DMmi1L_caMj40gR4rfrWpulntdy5_SznmjR-zdvdEEZcLSrh3ecVefQiUw~~"
+					}
+				}
+			]
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": []
+		}
+	}
+}
